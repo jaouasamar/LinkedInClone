@@ -2,17 +2,41 @@
   
     flex: 0.5;
     margin: 0 20px;
+    background-color: white;
+    width: 540px;
+    height: 116px;
+    border:1px solid lightgray;
+    border-radius: 10px;
+ 
 }
 
 .feed_inputContainer {
-    background-color: white;
-    padding: 10px;
-    padding-bottom: 20px;
-    border-radius: 10px;
-    margin-bottom: 20px;
-}
+     background-color: white;
+ margin:10px 10px 0px 10px; 
+ display: flex;
+ align-items: center;
+ justify-content: space-evenly;
 
-.feed_input {
+
+}
+ .avatar
+{
+    margin-right: 0px;
+} 
+.feed_inputContainer Button{
+    background-color: white;
+    border:1px gray solid;
+    border-radius: 35px;
+    width:452px;
+    margin-right: 20px;
+    height: 48px;
+    text-align: left;
+    color: gray;
+}
+.feed_inputContainer button:hover{
+    background-color: lightgrey;
+}
+/* .feed_input {
     border: 1px solid lightgray;
     border-radius: 30px;
     display: flex;
@@ -33,7 +57,7 @@
     margin-left: 10px;
     outline-width: 0;
     font-weight: 600;
-}
+} */
 
 .feed_input > form > button{
     display: none;
@@ -42,10 +66,119 @@
 .feed_inputOptions{
     display:flex;
     justify-content: space-evenly;
+    margin-top:-10px;
 }
 
 hr {
     margin-block-start: 16px;
     margin-block-end: 16px;
     
+}
+
+.ModalHearder{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left:20px;
+ padding-right: 20px;
+}
+.modalBody
+{
+
+    padding-left:20px;
+    padding-right: 20px;
+    margin-top:10px;
+    border-top: 1px solid gray;
+}
+.modalBodyHeader
+{
+    display: flex;
+    align-items: center;
+}
+.modalBodyHeaderOption{
+    margin-top:10px;
+    padding-left: 20px;
+}
+.modalBodyHeaderOption Button
+{
+    /* background-color:lightgray; */
+    border:1px gray solid;
+    border-radius: 20px;
+    color: grey;
+    height:30px;
+
+}
+.modalBodyHeaderOption Button:hover
+{
+    background-color:lightgrey;
+}
+textarea
+{
+    width: 400px;
+    height: 150px;
+    outline: none;
+    border: none;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight:normal;
+    
+}
+.link
+{
+font-size: 18px;
+font-weight:400;
+color:blue;
+width:120px;
+
+}
+.link:hover
+{
+    background-color: cadetblue;
+}
+.icons{
+    display: flex;
+    height:30px;
+    align-items: center;
+    /* border-right: 1px solid grey; */
+    border-right:1px solid grey;
+    width:280px;
+      margin-top:10px;
+  margin-bottom: 10px; 
+  padding-top: 0px;
+  padding-bottom: 5px; 
+}
+.iconsItem
+{
+    margin-right:-10px;
+}
+.iconsItem:hover
+{
+    background-color: lightslategray;
+}
+.icon{
+    margin-right: 15px;
+}
+.icon:hover{
+    background-color: gainsboro;
+    border-radius: 40%;
+}
+
+.postFooter
+{
+    display: flex;
+    align-items: center;
+}
+.postPermission
+{
+    margin-right: 10px;
+
+}
+.postPermission:hover{
+    background-color: #DCDCDC;
+    border-radius: 40%;
+}
+.postButton Button{
+   
+    border-radius: 35px;
+
 }

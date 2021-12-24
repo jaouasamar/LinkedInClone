@@ -8,6 +8,9 @@ import ShareOutlinedIcon from '@material-ui/icons/ShareOutlined';
 import SendOutlinedIcon from '@material-ui/icons/SendOutlined';
 
 const Post = ({name,description,message,photoUrl}) => {
+const handleLike=()=>{
+
+}
     return (
         <div  className="post">
             <div className="post_header">
@@ -21,8 +24,7 @@ const Post = ({name,description,message,photoUrl}) => {
             <p>{message}</p>
             </div>
         <div className="post_buttons">
-        <InputOption Icon={ThumbUpIcon} title="Like" color="gray" />
-        <InputOption Icon={ChatOutlinedIcon} title="Comment" color="gray" />
+        <InputOption Icon={ThumbUpIcon} title="Like" color="gray"/>
         <InputOption Icon={ShareOutlinedIcon} title="Share" color="gray" />
         <InputOption Icon={SendOutlinedIcon} title="Send" color="gray" />
         </div>
